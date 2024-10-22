@@ -19,6 +19,12 @@
 #logo {
     width: 50px;
 }
+#form{
+    margin-left: inherit;
+}
+#form-padding{
+    padding-left: 2%;
+}
 
 /*Selectors*/
 body{
@@ -26,8 +32,10 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-
-tr td{
-    font-size: 1rem;
+tbody tr td:nth-child(4){
+    min-width: 110px;
 }
 
+#form{
+    margin-left: inherit;
+}
