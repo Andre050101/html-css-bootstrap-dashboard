@@ -15,6 +15,11 @@
     font-style: normal;
 }
 
+/*ID*/
+#logo {
+    width: 50px;
+}
+
 /*Selectors*/
 body{
     font-family: "Roboto", sans-serif;
@@ -22,7 +27,5 @@ body{
     font-style: normal;
 }
 
-header nav div a img {
-    width: 50px;
-}
+
 

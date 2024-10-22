@@ -11,10 +11,12 @@
         <title>Document</title>
     </head>
     <body>
+
+        <!--Header-->
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="img/duck.png" alt=""></a>
+                  <a class="navbar-brand" href="#"><img id="logo" src="img/duck.png" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -41,6 +43,37 @@
                 </div>
               </nav>
         </header>
+
+        <!--Main-->
+        <main>
+
+            <!--Container-->
+            <div class="debug container mt-4">
+
+                <!--First Section-->
+                <div class="d-flex flex-row justify-content-between align-items-center">
+                    <h1 class="fs-2 fw-normal">Catalogo libri</h1>
+                    <button class="btn btn-primary btn-sm">Aggiungi Libro</button>
+                </div>
+
+                <!--Second Section (Table)-->
+                <div class="mt-2">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="col-6">Titolo</th>
+                                <th class="col-2">Data Prestito</th>
+                                <th class="col-2">Stato</th>
+                                <th class="col-2 text-center">Azioni</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                
+                
+
+            </div>
+        </main>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
