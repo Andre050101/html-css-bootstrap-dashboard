@@ -26,6 +26,25 @@
     padding-left: 2%;
 }
 
+#nameSurname div p, #info div p{
+    margin-bottom:.5rem;
+}
+#title p{
+    margin-bottom: 0.5rem;
+}
+#title{
+    margin-top: 0.75rem;
+}
+.subtitle{
+    font-size: 0.8em;
+    color: rgb(93, 93, 93);
+}
+.greyline{
+    border: 2px solid rgba(128, 128, 128, 0.182);
+    width: 100%;
+}
+
+
 /*Selectors*/
 body{
     font-family: "Roboto", sans-serif;
